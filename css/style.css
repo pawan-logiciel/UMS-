@@ -1,0 +1,36 @@
+.fa {
+  cursor: pointer; }
+
+.dashboard {
+  color: #000; }
+  .dashboard:hover {
+    text-decoration: none;
+    color: #000; }
+
+input {
+  outline: none; }
+
+.nav {
+  position: fixed !important;
+  z-index: 1;
+  width: 100%;
+  background-color: #0099ff; }
+  .nav .nav-icon {
+    font-size: 30px; }
+
+.sidenav {
+  position: fixed !important;
+  z-index: 1;
+  overflow-x: hidden;
+  top: 73px;
+  padding-bottom: 280px; }
+  .sidenav img {
+    border-radius: 100%; }
+  .sidenav ul {
+    list-style-type: none; }
+  .sidenav .drop li a:hover {
+    text-decoration: none; }
+
+.content {
+  padding-top: 8%;
+  padding-bottom: 95px !important; }

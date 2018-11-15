@@ -1,0 +1,29 @@
+<div class="container">
+	<div class="row">
+	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+			<form action="/login" method="post">
+				<h2 class="mb-3">Log In</h2>	
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 pl-0">
+					<div class="form-group ">
+						<input type="email" name="email" class="form-control" placeholder="Email Address">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
+						<div class="form-group">
+							<input type="password" name="password" class="form-control" placeholder="Password">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<input type="submit" value="Log In" class="btn btn-success btn-block btn-lg">
+					</div>
+					<div class="col-xs-12 col-md-6 col-lg-4">
+						<button class="btn btn-primary btn-block btn-lg">Register</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
